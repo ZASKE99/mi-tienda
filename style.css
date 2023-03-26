@@ -202,7 +202,7 @@ header{
    }
 
 }
-@media (max-width:373px){
+@media (min-width:373px){
     .container-cart-products{
         width: 285px;
     }
