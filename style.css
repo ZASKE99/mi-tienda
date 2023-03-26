@@ -176,3 +176,29 @@ header{
     cursor: pointer;
     border-radius: 25px;
 }
+
+/*diseño responsive*/
+@media (max-width:600px){
+   .titulo-tienda{
+    padding-left: 40px;
+   }
+   .icon-cart {
+    margin-right: 50px;
+   }
+   .count-products{
+    margin-right: 50px;
+   }
+   .container-cart-products{
+    margin-right: 50px;
+   }
+   .container-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 20%;
+    max-width: 90%;
+    align-content: center;
+    padding-left: 35px;
+   }
+
+}
